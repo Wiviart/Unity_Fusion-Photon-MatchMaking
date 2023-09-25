@@ -119,6 +119,7 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
         return runner.StartGame(new StartGameArgs
         {
             GameMode = gameMode,
+            PlayerCount = 2,
         });
     }
 }
